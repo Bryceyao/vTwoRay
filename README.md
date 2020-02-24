@@ -120,3 +120,8 @@ Caddy 配置文件路径：/etc/caddy/Caddyfile
 ### 原文链接
 [使用Cloudflare中转VTowRay流量](https://github.com/233boy/v2ray/wiki/%E4%BD%BF%E7%94%A8Cloudflare%E4%B8%AD%E8%BD%ACV2Ray%E6%B5%81%E9%87%8F)  
 [VTowRay一键安装脚本](https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC)
+
+`git clone https://github.com/Bryceyao/vTwoRay -b master
+cd v2ray
+chmod +x install.sh
+./install.sh local`
