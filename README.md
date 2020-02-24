@@ -1,4 +1,4 @@
-##使用Cloudflare中转V2Ray流量
+ ##使用Cloudflare中转V2Ray流量
 
 担心 IP 被墙？或者不想 IP 被墙？是的！使用 Cloudflare 来中转 V2Ray 的 WebSocket 流量就行！由于使用了 Cloudflare 中转，所以墙根本不知道背后的 IP 是多少，你可以愉快的玩耍了~
 
