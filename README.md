@@ -24,7 +24,7 @@ V2Ray 的 WS + TLS 不是神话，如果你没学会走路就不要急着跑
 确保域名已经可以在 Cloudflare 正常使用。  
 **在 Cloudflare 的 Overview 选项卡可以查看域名状态，请确保为激活状态，即是： Status: Active**  
 怎么 SSH 连接上被强的 IP ? Xshell 在属性那里可以设置代理，或者你可以在一台没有被强的境外 VPS 使用 iptables 转发数据到被强的机器上，此处不细说了。
-![cloudflareActive](https://github.com/Bryceyao/bryceFile/blob/master/work/image/VTworay/cloudflareActive.png ''cloudflareActive'')
+![image](https://github.com/Bryceyao/bryceFile/blob/master/work/image/VTworay/cloudflareActive.png)
 
 ### 添加域名解析
 在 DNS 选项卡那边添加一个 A 记录的域名解析，假设你的域名是 233blog.com，并且想要使用 www.233blog.com 作为翻~强的域名  
