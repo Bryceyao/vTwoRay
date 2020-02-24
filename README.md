@@ -72,6 +72,32 @@ OK，确保操作没有问题的话，继续
 
 什么鬼？对啊，就是如此简单啊，要不然你以为啊。
 
+### 快速管理
+v2ray info 查看 V2Ray 配置信息  
+v2ray config 修改 V2Ray 配置  
+v2ray link 生成 V2Ray 配置文件链接  
+v2ray infolink 生成 V2Ray 配置信息链接  
+v2ray qr 生成 V2Ray 配置二维码链接  
+v2ray ss 修改 ss 配置  
+v2ray ssinfo 查看 ss 配置信息  
+v2ray ssqr 生成 ss 配置二维码链接  
+v2ray status 查看 V2Ray 运行状态  
+v2ray start 启动 V2Ray  
+v2ray stop 停止 V2Ray  
+v2ray restart 重启 V2Ray  
+v2ray log 查看 V2Ray 运行日志  
+v2ray update 更新 V2Ray  
+v2ray update.sh 更新 V2Ray 管理脚本  
+v2ray uninstall 卸载 V2Ray  
+
+### 配置文件路径
+V2Ray 配置文件路径：/etc/v2ray/config.json  
+Caddy 配置文件路径：/etc/caddy/Caddyfile  
+脚本配置文件路径: /etc/v2ray/233blog_v2ray_backup.conf  
+>警告，请不要修改脚本配置文件，免得出错。。  
+>如果你不是有特别的需求，也不要修改 V2Ray 配置文件  
+>不过也没事，若你实在想要瞎折腾，出错了的话，你就卸载，然后重装，再出错 ，再卸载，再重装，重复到自己不再想折腾为止。。
+
 ### 备注
 如果你的 VPS 位置是在美国西海岸的话，速度应该还算可以吧，如果不是在美国西海岸，那么也许速度会很慢，不过好在不用担心 IP 被强或者能让被强的 IP 重生也挺好的。难道不是么？
 如果你使用移动网络的话，那么 Cloudflare 的中转节点可能会在香港，速度也许会不错 (不完全保证)。
@@ -84,3 +110,7 @@ OK，确保操作没有问题的话，继续
 
 ### 结束
 哇，没有图文教程你就看不懂的话，我能怎么办，我也很绝望，我更加迷茫
+
+### 原文链接
+[使用Cloudflare中转V2Ray流量](https://github.com/233boy/v2ray/wiki/%E4%BD%BF%E7%94%A8Cloudflare%E4%B8%AD%E8%BD%ACV2Ray%E6%B5%81%E9%87%8F)  
+[V2Ray一键安装脚本](https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC)
