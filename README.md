@@ -32,6 +32,8 @@ V2Ray 的 WS + TLS 不是神话，如果你没学会走路就不要急着跑
 (如果你已经添加域名解析， **请务必把云朵点灰** ，即是 DNS only)
 
 OK，确保操作没有问题的话，继续
+![image](https://github.com/Bryceyao/bryceFile/blob/master/work/image/VTworay/godaddyNameServers.png)
+![image](https://github.com/Bryceyao/bryceFile/blob/master/work/image/VTworay/cloudflareDNS1.png)
 
 ### 安装 V2Ray
 >如果你已经使用本人提供的 V2Ray 一键安装脚本并安装了 V2Ray，那就直接输入 v2ray config 修改传输协议为 WebSocket + TLS
@@ -62,6 +64,9 @@ OK，确保操作没有问题的话，继续
 **然后在 DNS 选项卡那里，把刚才点灰的那个云朵图标，点亮它，一定要点亮一定要点亮一定要点亮**
 
 云朵图标务必为橙色状态，即是 DNS and HTTP proxy(CDN)
+
+![image](https://github.com/Bryceyao/bryceFile/blob/master/work/image/VTworay/cloudflareSSL.png)
+![image](https://github.com/Bryceyao/bryceFile/blob/master/work/image/VTworay/cloudflareDNS.png)
 
 ### V2Ray 配置信息
 很好，现在接下来配置客户端使用
